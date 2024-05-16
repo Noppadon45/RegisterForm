@@ -1,0 +1,79 @@
+body {
+  background-color: blanchedalmond;
+  font-family: "kanit";
+  font-size: 20px;
+  font-weight: 100px;
+}
+#register {
+  color: rgb(163, 89, 4);
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 120px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: yellow;
+  text-align: center;
+  width: 350px;
+}
+.nametext {
+  border-radius: 5px;
+  display: flex;
+}
+
+@font-face {
+  font-family: "kanit";
+  src: url("/Kanit/Kanit-Light.ttf");
+}
+.form {
+  display: inline-flex;
+}
+.gender {
+  display: flex;
+}
+.containers {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: aquamarine;
+  padding-right: 230px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.containers-form {
+  display: auto;
+  width: 100%;
+}
+.block {
+  display: block;
+}
+input.form {
+  display: auto;
+  width: 500px;
+}
+.flex {
+  display: flex;
+}
+.bottom {
+  margin-bottom: 10px;
+}
+.top {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    display: block;
+  }
+  #register {
+    font-size: 25px;
+  }
+
+  .containers-form {
+    display: block;
+  }
+}

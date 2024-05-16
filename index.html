@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="containers">
+      <div id="register">Register form</div>
+      <div class="containers-form">ชื่อ</div>
+      <div>
+        <input type="text" class="nametext form" name="firstname" />
+      </div>
+      <div class="containers-form" name="lastname">นามสกุล</div>
+      <input type="text" class="nametext form" name="lastname" />
+      <div class="containers-form block">
+        อายุ <input type="number" / class="block form nametext" name="ages">
+      </div>
+      วันเกิด<input type="month" class="block" name="birthday" />
+      <div class="gender">
+        <div class="block">เพศ</div>
+      </div>
+      <div class="flex">
+        ชาย <input type="radio" name="gender" class="gender" value="ชาย" />
+      </div>
+      <div class="flex">
+        หญิง <input type="radio" name="gender" class="gender" value="หญิง" />
+      </div>
+      <div class="flex">
+        Lgbtq <input type="radio" name="gender" class="gender" value="Lgbtq" />
+      </div>
+      <div>สิ่งที่สนใจ</div>
+      <div>เกม <input type="checkbox" name="interest" value="เกม" /></div>
+      <div>หนัง <input type="checkbox" name="interest" value="หนัง" /></div>
+      <div>อาหาร <input type="checkbox" name="interest" value="อาหาร" /></div>
+      <div>รถ <input type="checkbox" name="interest" value="รถ" /></div>
+      <div class="containers-form block form nametext bottom">
+        คำอธิบายเพิ่มเติม
+        <div>
+          <textarea
+            name="description"
+            id=""
+            cols="70"
+            rows="10"
+            class="nametext bottom top"
+          ></textarea>
+        </div>
+      </div>
+      <div class="bottom top">
+        <a href="https://www.youtube.com/watch?v=bPsj3DP98Uc">referents</a>
+      </div>
+      <div>
+        <button onclick="submit()" name="submit">ส่งข้อมูล</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
